@@ -1,6 +1,7 @@
-import prompt from 'async-prompt'
-import {sumarRango} from "./module/ejericicioSuma.js"
+/*import prompt from 'async-prompt'
+import {sumarRango} from "./module/ejericicioSuma.js"*/
+import {contrasenaValida} from "./module/Ejercicio1.js"
+import {calcularImpuestos} from "./module/Ejercicio2.js"
 
-let num1 = Number(await prompt("Ingrese el numero 1 \n"))
-let num2 = Number(await prompt("Ingrese el numero 2 \n"))
-console.log(sumarRango(num1,num2))
+
+console.log(calcularImpuestos(18,900))
