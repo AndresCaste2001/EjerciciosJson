@@ -16,7 +16,19 @@ import {transcribir} from "./module/Ejercicio15.js"
 import {capitalizar} from "./module/Ejercicio16.js"
 import {capitalizar2} from "./module/Ejercicio17.js"
 import {max} from "./module/Ejercicio18.js"
+import {min} from "./module/Ejercicio19.js"
+import {password} from "./module/Ejercicio20.js"
+import {pares} from "./module/Ejercicio21.js"
+import {posiciones} from "./module/Ejercicio22.js"
+import {duplicar} from "./module/Ejercicio23.js"
+import {empiezanConA} from "./module/Ejercicio24.js"
+import {terminanConS} from "./module/Ejercicio25.js"
+import {imprimirMatriz} from "./module/Ejercicio26.js"
 
 
 
-console.log(max([67, 35, 54, 26]));
+console.log(imprimirMatriz([
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+  ]))
