@@ -24,11 +24,17 @@ import {duplicar} from "./module/Ejercicio23.js"
 import {empiezanConA} from "./module/Ejercicio24.js"
 import {terminanConS} from "./module/Ejercicio25.js"
 import {imprimirMatriz} from "./module/Ejercicio26.js"
+import {numerosAPalabras} from "./module/Ejercicio27.js"
+import {palabrasANumeros} from "./module/Ejercicio28.js"
+import {numAsteriscos} from "./module/Ejercicio29.js"
+import {numAsteriscosM} from "./module/Ejercicio30.js"
+
+
+console.log(numAsteriscosM([
+  ['*', '', '*'],
+  ['', '*', ''],
+  ['*', '', '***']
+]))
 
 
 
-console.log(imprimirMatriz([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-  ]))

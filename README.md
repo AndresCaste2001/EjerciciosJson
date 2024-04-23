@@ -437,7 +437,7 @@ Escribir una función llamada `numAsteriscos` que reciba un arreglo y retorne el
 
 // código de prueba
 console.log(numAsteriscos(['', '*', '', '*'])) // 2
-console.log(numAsteriscos(['*', '*', '*'])) // 3
+console.log(numAsteriscos([["*", "**", "abc*", "***", "def"]])) // 3
 console.log(numAsteriscos([])) // 0
 ```
 
